@@ -1,0 +1,10 @@
+{
+  "name": "jetbrains-academy",
+  "version": "1.0.0",
+  "description": "JetBrains Academy project repos - JavaScript",
+  "main": "index.js",
+  "repository": "https://github.com/gildoneto/jetbrains-academy.git",
+  "author": "@gildoneto",
+  "license": "MIT",
+  "private": false
+}
