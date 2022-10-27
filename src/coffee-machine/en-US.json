@@ -1,0 +1,30 @@
+{
+  "DEFAULT": "Write action (buy, fill, take, remaining, exit): ",
+  "INVENTORY": {
+    "MACHINE": "The coffee machine has:",
+    "WATER": "ml of water",
+    "MILK": "ml of milk",
+    "BEANS": "g of coffee beans",
+    "CUPS": "disposable cups",
+    "MONEY": "of money"
+  },
+  "BUY" : {
+    "OPTIONS": "What do you want to buy? 1 - espresso, 2 - latte, 3 - cappuccino, back - to main menu: "
+  },
+  "FILL": {
+    "WATER": "Write how many ml of water you want to add: ",
+    "MILK": "Write how many ml of milk you want to add: ",
+    "BEANS": "Write how many grams of coffee beans you want to add: ",
+    "CUPS": "Write how many disposable cups you want to add: "
+  },
+  "TAKE_QUESTION": "I gave you $",
+  "ERROR": "Something's wrong. It was a typo? Please try again.",
+  "RESOURCES": {
+    "ENOUGH": "I have enough resources, making you a coffee!",
+    "NOT_ENOUGH_WATER": "Sorry, not enough water!",
+    "NOT_ENOUGH_MILK": "Sorry, not enough milk!",
+    "NOT_ENOUGH_BEANS": "Sorry, not enough beans!",
+    "NOT_ENOUGH_CUPS": "Sorry, not enough cups!"
+  },
+  "BYE": "\nThank you for using this software.\nCoffee Machine was my final project proposed by JetBrains Academy JavaScript Course\ndeveloped by @gildoneto\nPlease give me a star ★\n"
+}
