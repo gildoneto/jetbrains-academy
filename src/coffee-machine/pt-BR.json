@@ -33,5 +33,6 @@
     "NOT_ENOUGH_BEANS": "Desculpe, não tempos grãos o suficiente!",
     "NOT_ENOUGH_CUPS": "Desculpe, não tempos copos o suficiente!"
   },
+  "WELCOME": "\nBem vindo ao projeto Coffee Machine =D\nEste programa simula uma máquina de café ☕\nsendo possível comprar café, abastecer a máquina com suprimentos,\nsacar o dinheiro e consultar o inventário atual\nSiga as instruções e divirta-se =D\n",
   "BYE": "\nObrigado por usar este programa.\nCoffee Machine foi meu projeto final proposto pelo curso de JavaScript da JetBrains Academy\ndesenvolvido por @gildoneto\nSe curtiu, me dá uma estrela no github ★\n"
 }

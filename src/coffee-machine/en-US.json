@@ -1,5 +1,12 @@
 {
   "DEFAULT": "Write action (buy, fill, take, remaining, exit): ",
+  "MODE": {
+    "BUY": "buy",
+    "FILL": "fill",
+    "TAKE": "take",
+    "REMAINING": "remaining",
+    "EXIT": "exit"
+  },
   "INVENTORY": {
     "MACHINE": "The coffee machine has:",
     "WATER": "ml of water",
@@ -26,5 +33,6 @@
     "NOT_ENOUGH_BEANS": "Sorry, not enough beans!",
     "NOT_ENOUGH_CUPS": "Sorry, not enough cups!"
   },
+  "WELCOME": "\nWelcome to Coffee Machine project =D\nThis program simulates a coffee machine ☕\nIs possible to buy coffee, fill the supplies,\ntake the money and get the current inventory\nFollow the instructions and have some fun =D\n",
   "BYE": "\nThank you for using this software.\nCoffee Machine was my final project proposed by JetBrains Academy JavaScript Course\ndeveloped by @gildoneto\nPlease give me a star ★\n"
 }
