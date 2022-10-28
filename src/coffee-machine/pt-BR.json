@@ -1,10 +1,10 @@
 {
-  "DEFAULT": "Digite uma ação (comprar, abastecer, dinheiro, suprimentos, sair): ",
+  "DEFAULT": "Digite uma ação (comprar, abastecer, sacar, inventario, sair): ",
   "MODE": {
     "BUY": "comprar",
     "FILL": "abastecer",
-    "TAKE": "dinheiro",
-    "REMAINING": "suprimentos",
+    "TAKE": "sacar",
+    "REMAINING": "inventario",
     "EXIT": "sair"
   },
   "INVENTORY": {
