@@ -1,9 +1,10 @@
 /* eslint-disable no-case-declarations */
 const EN = require('./en-US.json');
 const PT = require('./pt-BR.json');
+const { COFFEE_LOGO } = require('./ascii');
 const prompt = require('prompt-sync')();
 
-const LANGUAGE = 'Type EN to choose english:\nDigite PT se prefere português BR:';
+const LANGUAGE = 'Type EN to choose english, OR\nDigite PT se prefere português BR:';
 
 let ASK = JSON.parse(JSON.stringify(EN));
 
@@ -13,6 +14,10 @@ const inventory = {
   beans: 120,
   cups: 9,
   money: 550
+};
+
+const printLogo = () => {
+  console.log(COFFEE_LOGO);
 };
 
 const resetInventory = () => {
@@ -146,16 +151,18 @@ const exit = (mode) => {
 };
 
 const askLanguage = () => {
-
+  
   console.log(LANGUAGE);
   const language = getAnswer().toUpperCase();
 
   switch (language) {
     case 'PT':
       ASK = JSON.parse(JSON.stringify(PT));
+      console.log(ASK.WELCOME);
       askAction();
       break;
     case 'EN':
+      console.log(ASK.WELCOME);
       askAction();
       break;
     case 'SAIR':
@@ -199,8 +206,6 @@ const askAction = () => {
   }
 };
 
-askLanguage();
-
 module.exports = {
   getInventory, 
   arrangeInventory,
@@ -208,5 +213,7 @@ module.exports = {
   takeMoney,
   resetInventory,
   canBuy,
+  askLanguage,
+  printLogo,
   COFFEE
 };
