@@ -4,3 +4,7 @@
 </div><br>
 
 [Clique aqui para ler em português brasileiro](./README.pt-BR.md)
+
+### You can test this project on this link below:
+
+https://replit.com/@gildoneto/jetbrains-academy?v=1

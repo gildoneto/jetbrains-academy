@@ -5,6 +5,10 @@
 
 Repositório de projetos da [JetBrains Academy](https://hyperskill.org/).
 
+### You can test this project on this link below:
+
+https://replit.com/@gildoneto/jetbrains-academy?v=1
+
 ## Table of contents
 
 - [Projetos](#projetos)
