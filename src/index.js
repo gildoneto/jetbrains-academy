@@ -1,5 +1,6 @@
 const prompt = require('prompt-sync')();
 
+const { startCarnivalShop } = require('./carnival-gift-shop');
 const { askLanguage, printLogo } = require('./coffee-machine/index');
 const { startChat } = require('./simple-chatty-bot/index');
 const { startConverter } = require('./simple-currency-converter');
@@ -35,7 +36,7 @@ const chooseProject = () => {
       startConverter();
       break;
     case 4:
-      
+      startCarnivalShop();
       break;
     case 5:
       

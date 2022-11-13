@@ -46,6 +46,11 @@ A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é compost
 
 ### 4. Carnival Gift Shop - Nível Difícil
 
+- [Código fonte](./src/carnival-gift-shop/index.js)
+- [Link Hyperskill](https://hyperskill.org/projects/277?track=32)
+
+[Mais sobre este projeto](./src/carnival-gift-shop/README.md)
+
 ### 5. Hangman - Nível Desafiador
 
 ### 6. Coffee Machine - Nível Desafiador
