@@ -29,6 +29,7 @@ A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é compost
 - [Link Hyperskill](https://hyperskill.org/projects/221?track=32)
 
 [Mais sobre este projeto](/src/simple-chatty-bot/README.md)
+
 [Test this project](https://replit.com/@gildoneto/jetbrains-academy?v=1)
 
 ### 2. Zookeeper - Nível Fácil
@@ -37,6 +38,7 @@ A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é compost
 - [Link Hyperskill](https://hyperskill.org/projects/225?track=32)
 
 [Mais sobre este projeto](./src/zookeeper/README.md)
+
 [Test this project](https://replit.com/@gildoneto/jetbrains-academy?v=1)
 
 ### 3. Simple Currency Converter - Nível Médio
@@ -45,6 +47,7 @@ A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é compost
 - [Link Hyperskill](https://hyperskill.org/projects/231?track=32)
 
 [Mais sobre este projeto](./src/simple-currency-converter/README.md)
+
 [Test this project](https://replit.com/@gildoneto/jetbrains-academy?v=1)
 
 ### 4. Carnival Gift Shop - Nível Difícil
@@ -53,6 +56,7 @@ A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é compost
 - [Link Hyperskill](https://hyperskill.org/projects/277?track=32)
 
 [Mais sobre este projeto](./src/carnival-gift-shop/README.md)
+
 [Test this project](https://replit.com/@gildoneto/jetbrains-academy?v=1)
 
 ### 5. Hangman - Nível Desafiador
@@ -61,6 +65,7 @@ A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é compost
 - [Link Hyperskill](https://hyperskill.org/projects/265?track=32)
 
 [Mais sobre este projeto](./src/hangman/README.md)
+
 [Test this project](https://replit.com/@gildoneto/jetbrains-academy?v=1)
 
 ### 6. Coffee Machine - Nível Desafiador
@@ -69,6 +74,7 @@ A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é compost
 - [Link Hyperskill](https://hyperskill.org/projects/220?track=32)
 
 [Mais sobre este projeto](./src/coffee-machine/README.md)
+
 [Test this project](https://replit.com/@gildoneto/jetbrains-academy?v=1)
 
 #### Overview
