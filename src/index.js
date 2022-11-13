@@ -46,7 +46,6 @@ const chooseProject = () => {
       printLogo();
       askLanguage();
       break;
-  
     default:
       exit();
       break;

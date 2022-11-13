@@ -125,7 +125,7 @@ const checkGame = () => {
 
   if (!GAME.secret.includes('-')) {
     GAME.wonScore++;
-    print(`${GAME.GUESSED} ${GAME.word}!`);
+    print(`${GAME.GUESSED} => ${GAME.word.toUpperCase()}!`);
     print(GAME.WIN);
     showMenu();
   } else if (GAME.attempts === 0) {
@@ -159,11 +159,9 @@ const showMenu = () => {
   switch (userInput) {
     case 'play':
       resetGame();
-      console.clear();
       getLetter();
       break;
     case 'results':
-      console.clear();
       showResults();
       showMenu();
       break;
@@ -177,6 +175,7 @@ const showMenu = () => {
 };
 
 const startHangman = () => {
+  console.clear();
   welcome();
   showMenu();
 };
