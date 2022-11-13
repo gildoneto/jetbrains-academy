@@ -1,15 +1,17 @@
 const prompt = require('prompt-sync')();
+
 const { askLanguage, printLogo } = require('./coffee-machine/index');
 const { startChat } = require('./simple-chatty-bot/index');
+const { startConverter } = require('./simple-currency-converter');
 const { startZoo } = require('./zookeeper/index');
 
-const WELCOME = 'Welcome! Please choose one project';
+const WELCOME = 'Welcome to HyperSkill\'s projects developed by @gildoneto!\nPlease choose one project\n';
 const PROJECTS = `Type 1 for Simple Chatty Bot
 Type 2 for Zookeeper
 Type 3 for Simple Currency Converter
 Type 4 for Carnival Gift Shop
 Type 5 for Hangman
-Type 6 for Coffee Machine`;
+Type 6 for Coffee Machine\n`;
 
 const getAnswer = () => {
   return prompt('> ');
@@ -30,7 +32,7 @@ const chooseProject = () => {
       startZoo();
       break;
     case 3:
-      
+      startConverter();
       break;
     case 4:
       
@@ -49,7 +51,7 @@ const chooseProject = () => {
   }
 };
 
+console.clear();
 console.log(WELCOME);
 console.log(PROJECTS);
-
 chooseProject();

@@ -3,40 +3,52 @@
 <img src="https://www.jetbrains.com/academy/img/logo_academy.svg"  alt="JetBrains Academy Logo"  width="200">
 </div><br>
 
-Repositório de projetos da [JetBrains Academy](https://hyperskill.org/).
+Repositório dos 6 projetos da trilha JavaScript da [JetBrains Academy](https://hyperskill.org/tracks/32).
 
-### You can test this project on this link below:
+**Você pode testar o projeto clicando no link abaixo:**
 
 https://replit.com/@gildoneto/jetbrains-academy?v=1
 
 ## Table of contents
 
 - [Projetos](#projetos)
-
-## Como baixar e rodar o projeto
-
-No seu terminal, navegue para seu diretório de trabalho.
-
-Se usa HTTPS, rode o comando:
-
-`git clone https://github.com/gildoneto/jetbrains-academy.git`
-
-Se usa SSH, rode o comando:
-
-`git clone git@github.com:gildoneto/jetbrains-academy.git`
-
-Vá para o diretório do projeto
-
-`cd jetbrains-academy`
-
-Instale as dependências
-`yarn install`
-
-A partir deste ponto, se 
+  - [1. Simple Chatty Bot](#1-simple-chatty-bot---nível-fácil)
+  - [2. Zookeeper](#2-zookeeper---nível-fácil)
+  - [3. Simple Currency Converter](#3-simple-currency-converter---nível-médio)
+  - [4. Carnival Gift Shop](#4-carnival-gift-shop---nível-difícil)
+  - [5. Hangman](#5-hangman---nível-desafiador)
+  - [6. Coffee Machine](#6-coffee-machine---nível-desafiador)
 
 ## Projetos
 
-### 1. Coffee Machine - Nível Desafiador
+A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é composta por 6 projetos principais e 57 tópicos de teoria + exercícios.
+
+### 1. Simple Chatty Bot - Nível Fácil
+
+- [Código fonte](./src/simple-chatty-bot/index.js)
+- [Link Hyperskill](https://hyperskill.org/projects/221?track=32)
+
+[Mais sobre este projeto](/src/simple-chatty-bot/README.md)
+
+### 2. Zookeeper - Nível Fácil
+
+- [Código fonte](./src/zookeeper/index.js)
+- [Link Hyperskill](https://hyperskill.org/projects/225?track=32)
+
+[Mais sobre este projeto](./src/zookeeper/README.md)
+
+### 3. Simple Currency Converter - Nível Médio
+
+- [Código fonte](./src/simple-currency-converter/index.js)
+- [Link Hyperskill](https://hyperskill.org/projects/231?track=32)
+
+[Mais sobre este projeto](./src/simple-currency-converter/README.md)
+
+### 4. Carnival Gift Shop - Nível Difícil
+
+### 5. Hangman - Nível Desafiador
+
+### 6. Coffee Machine - Nível Desafiador
 
 #### Código Fonte
 
