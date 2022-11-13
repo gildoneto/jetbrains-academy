@@ -7,7 +7,7 @@ const {
   resetInventory,
   canBuy,
   COFFEE
-} = require('./coffee-machine.js');
+} = require('./index.js');
 
 const INITIAL_INVENTORY_TEXT = `The coffee machine has:
 400 ml of water
