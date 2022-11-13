@@ -60,14 +60,10 @@ A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é compost
 
 ### 6. Coffee Machine - Nível Desafiador
 
-#### Código Fonte
+- [Código fonte](./src/coffee-machine/index.js)
+- [Link Hyperskill](https://hyperskill.org/projects/220?track=32)
 
-No diretório `src/coffee-machine` temos dois arquivos:
-
-- `coffee-machine.js`: código fonte do projeto
-- `coffee-machine.spec.js`: testes unitários
-
-
+[Mais sobre este projeto](./src/coffee-machine/README.md)
 
 #### Overview
 
