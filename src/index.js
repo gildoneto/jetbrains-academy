@@ -1,6 +1,7 @@
 const prompt = require('prompt-sync')();
 const { askLanguage, printLogo } = require('./coffee-machine/index');
 const { startChat } = require('./simple-chatty-bot/index');
+const { startZoo } = require('./zookeeper/index');
 
 const WELCOME = 'Welcome! Please choose one project';
 const PROJECTS = `Type 1 for Simple Chatty Bot
@@ -26,7 +27,7 @@ const chooseProject = () => {
       startChat();
       break;
     case 2:
-      
+      startZoo();
       break;
     case 3:
       
