@@ -53,6 +53,11 @@ A trilha [JavaScript for Beginners](https://hyperskill.org/tracks/32) é compost
 
 ### 5. Hangman - Nível Desafiador
 
+- [Código fonte](./src/hangman/index.js)
+- [Link Hyperskill](https://hyperskill.org/projects/265?track=32)
+
+[Mais sobre este projeto](./src/hangman/README.md)
+
 ### 6. Coffee Machine - Nível Desafiador
 
 #### Código Fonte

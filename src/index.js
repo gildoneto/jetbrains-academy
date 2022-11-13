@@ -2,6 +2,7 @@ const prompt = require('prompt-sync')();
 
 const { startCarnivalShop } = require('./carnival-gift-shop');
 const { askLanguage, printLogo } = require('./coffee-machine/index');
+const { startHangman } = require('./hangman');
 const { startChat } = require('./simple-chatty-bot/index');
 const { startConverter } = require('./simple-currency-converter');
 const { startZoo } = require('./zookeeper/index');
@@ -39,7 +40,7 @@ const chooseProject = () => {
       startCarnivalShop();
       break;
     case 5:
-      
+      startHangman();
       break;
     case 6:
       printLogo();
